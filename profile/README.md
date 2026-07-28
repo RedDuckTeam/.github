@@ -1,6 +1,11 @@
 <div align="center">
 
-<a href="https://redduck.io"><img src="https://raw.githubusercontent.com/RedDuckTeam/.github/main/assets/hero.svg" alt="RedDuck — blockchain consulting & development partner" width="100%"></a>
+<a href="https://redduck.io">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RedDuckTeam/.github/main/assets/hero.svg">
+    <img src="https://raw.githubusercontent.com/RedDuckTeam/.github/main/assets/hero-light.svg" alt="RedDuck — blockchain consulting &amp; development partner" width="100%">
+  </picture>
+</a>
 
 ### [Website](https://redduck.io) &nbsp;·&nbsp; [Academy](https://academy.redduck.io) &nbsp;·&nbsp; [Blog](https://blog.redduck.io) &nbsp;·&nbsp; [Clutch](https://clutch.co/profile/redduck) &nbsp;·&nbsp; [Upwork](https://www.upwork.com/agencies/redduck/) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/company/redduckio)
 
