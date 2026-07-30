@@ -1,6 +1,10 @@
+# Pull Request
+
 ## What changed
 
-<!-- Describe the change and why it's needed. Link the issue/ticket if there is one. -->
+<!-- Describe the change and why it's needed. New feature or non-obvious fix? Consider opening an issue to discuss the approach first — it merges faster than a PR that needs to change direction mid-review. -->
+
+Fixes #___ <!-- delete this line if there's no issue -->
 
 ## Type of change
 
@@ -18,7 +22,6 @@
 
 - [ ] `lint` / `typecheck` / `build` / `test` pass locally (whichever scripts exist in this repo)
 - [ ] No `.env`, secrets, `node_modules`, or build output committed
-- [ ] Linked issue, if any
 
 ## Security-sensitive?
 

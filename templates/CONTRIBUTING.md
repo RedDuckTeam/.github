@@ -32,6 +32,14 @@ A PR shouldn't be opened with a failing check. If CI is configured for the
 repo, it re-runs the same checks — don't rely on CI to catch what you could
 catch locally first.
 
+## Before you start on something non-trivial
+
+Open an issue and get a nod first — don't spend real time on a new feature
+or a non-obvious fix before it's been discussed. This isn't process for its
+own sake: it's the difference between a PR that merges same-day and one
+that sits because the approach needed to change. Small fixes and obvious
+bugs don't need this — use judgment.
+
 ## Git, commits, and PRs
 
 - **Commits are informative.** Not `feat: almost completed` or `fix: stuff`.
@@ -47,7 +55,16 @@ catch locally first.
   tree. Delete it; it's recoverable from history if it's ever actually needed.
 - **Merge only when the branch is actually done.** Don't merge early just to
   hand off a partial fix to someone else — use `git cherry-pick` (or just ask)
-  instead of merging an unfinished branch into a shared one.
+  instead of merging an unfinished branch into a shared one. Opening a PR
+  early for visibility or feedback is fine — mark it a **draft** so it's
+  clear it isn't ready to merge yet; that's a different thing from merging
+  unfinished work.
+- **Refactor for a reason, not for taste.** A drive-by rewrite of working
+  code because it "reads better" your way creates a large diff with no
+  behavior change and makes history harder to trace. Refactor when it's
+  needed for the fix or feature at hand, or file it as its own separate PR
+  with a concrete justification (perf, a bug it enables fixing, etc.) —
+  don't bundle it into an unrelated change.
 - **Before solving something from scratch, check if it's already been solved.**
   If the task is something the industry (or another RedDuck repo) has already
   built many times over — wallet connection, KYC integration, a common DeFi
