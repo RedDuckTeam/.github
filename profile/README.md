@@ -29,7 +29,7 @@ have.
 - **[Vesting](https://github.com/RedDuckTeam/Vesting)** — a Hardhat template with one vesting contract built three ways: on-chain storage, Merkle proofs, ECDSA signatures. The tests measure what each costs in gas, so you can pick before you commit.
 - **[ICO](https://github.com/RedDuckTeam/ICO)** — a token sale template in Solidity: whitelisting, oracle pricing, vesting. A starting point for a launch rather than a finished product.
 - **[erc20-multisend-template](https://github.com/RedDuckTeam/erc20-multisend-template)** — one token to many recipients in a single transaction, authorized by a single Permit2 signature. Browser-only, no backend.
-- **[provably-fair-casino](https://github.com/RedDuckTeam/provably-fair-casino)** — ten games with no house backend, every round settled on-chain with Chainlink VRF.
+- **[onchain-arcade](https://github.com/RedDuckTeam/onchain-arcade)** — ten games with no house backend, every round settled on-chain with Chainlink VRF.
 - **[ai-tarot-web](https://github.com/RedDuckTeam/ai-tarot-web)** — your three-card spread is derived from your own transaction hash, so the deck cannot be stacked after you pay. The casino's idea, wearing a sillier hat.
 - **[ecosnap](https://github.com/RedDuckTeam/ecosnap)** — photograph the litter you picked up, get paid for it. A community vote settles what a camera cannot verify.
 
