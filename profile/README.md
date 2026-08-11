@@ -23,7 +23,7 @@ follow and easy to verify — a pattern earns its place by solving a problem you
 have.
 
 ## Open source
-
+- **[rwa](https://github.com/RedDuckTeam/rwa)** — whitelabel RWA platform for NAV-priced tokenized bonds/treasuries and deed-backed assets, with Solidity contracts, compliance controls, Sepolia app, and subgraph indexing.
 - **[near-typegen](https://github.com/RedDuckTeam/near-typegen)** — extracts ABIs from NEAR contracts and generates typed TypeScript clients, so a wrong contract call fails at compile time instead of on chain.
 - **[SolidityProvider](https://github.com/RedDuckTeam/SolidityProvider)** — compile a Solidity contract, get a typed F# API for it. No codegen step, no hand-written DTOs.
 - **[Vesting](https://github.com/RedDuckTeam/Vesting)** — a Hardhat template with one vesting contract built three ways: on-chain storage, Merkle proofs, ECDSA signatures. The tests measure what each costs in gas, so you can pick before you commit.
@@ -31,6 +31,8 @@ have.
 - **[erc20-multisend-template](https://github.com/RedDuckTeam/erc20-multisend-template)** — one token to many recipients in a single transaction, authorized by a single Permit2 signature. Browser-only, no backend.
 - **[onchain-arcade](https://github.com/RedDuckTeam/onchain-arcade)** — ten games with no house backend, every round settled on-chain with Chainlink VRF.
 - **[ai-tarot-web](https://github.com/RedDuckTeam/ai-tarot-web)** — your three-card spread is derived from your own transaction hash, so the deck cannot be stacked after you pay. The casino's idea, wearing a sillier hat.
+- **[hedera-regulated-token](https://github.com/RedDuckTeam/hedera-regulated-token)** — Hedera HTS regulated token demo with KYC, freeze, wipe, pause, faucet claims, HashPack signing, and a Cloudflare-ready frontend.
+- **[hedera-audit-trail](https://github.com/RedDuckTeam/hedera-audit-trail)** — Hedera HCS audit trail for verifiable ESG events, off-chain data hashes, and consensus timestamp proofs.
 - **[ecosnap](https://github.com/RedDuckTeam/ecosnap)** — photograph the litter you picked up, get paid for it. A community vote settles what a camera cannot verify.
 
 ## Work with us
